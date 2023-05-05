@@ -219,3 +219,15 @@ document.getElementById("btnTwelve").addEventListener('click', function() {
     document.querySelector(".brown").setAttribute('class', 'figure brown antoine');
     document.querySelector(".orange").setAttribute('class', 'figure orange antoine');
 });
+
+const classList = ['square', 'cat', 'Boat', 'dog', 'ours', 'cheval', 'butterfly'];
+
+const myClass = document.querySelector('.red');
+
+function changeClass() {
+    const randomIndex = Math.floor(Math.random() * classList.length);
+    const randomClass = classList[randomIndex];
+
+    myClass.classList.remove(myClass.classList[0]);
+    myClass.classList.add(randomClass);
+}

@@ -1,0 +1,21 @@
+.red.turtle {
+    transform: translate(100px, 0px) rotate(180deg);
+}
+.green.turtle {
+    transform: translate(-200px, 0px) rotate(45deg);
+}
+.blue.turtle {
+    transform: translate(170px, -120px) rotate(265deg);
+}
+.yellow.turtle {
+    transform: translate(-50px, 0px) rotate(270deg);
+}
+.purple.turtle {
+    transform: translate(-140px, -150px) rotate(30deg) skew(45deg);
+}
+.brown.turtle {
+    transform: translate(-50px, 160px) rotate(215deg);
+}
+.orange.turtle {
+    transform: translate(160px, 133px) rotate(10deg);
+}
