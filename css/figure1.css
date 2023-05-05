@@ -1,0 +1,27 @@
+.red.square {
+    transform: translate(75px, 16px) rotate(360deg);
+}
+
+.green.square {
+    transform: translate(-76px, 16px) rotate(-45deg);
+}
+
+.blue.square {
+    transform: translate(-114px, 90px) rotate(0deg);
+}
+
+.yellow.square {
+    transform: translate(-1px, 91px) rotate(360deg);
+}
+
+.purple.square {
+    transform: translate(37px, -97px) rotate(315deg) skew(45deg);
+}
+
+.brown.square {
+    transform: translate(-75px, -60px) rotate(270deg);
+}
+
+.orange.square {
+    transform: translate(-1px, -21px) rotate(360deg);
+}

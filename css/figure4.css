@@ -1,0 +1,27 @@
+.red.dog {
+    transform: translate(-150px, 100px) rotate(45deg);
+}
+
+.green.dog {
+    transform: translate(65px, 200px) rotate(0deg);
+}
+
+.blue.dog {
+    transform: translate(-120px, 230px) rotate(45deg);
+}
+
+.yellow.dog {
+    transform: translate(65px, 95px) rotate(135deg);
+}
+
+.purple.dog {
+    transform: translate(172px, -60px) rotate(270deg) skew(45deg);
+}
+
+.brown.dog {
+    transform: translate(225px, 50px) rotate(315deg);
+}
+
+.orange.dog {
+    transform: translate(-285px, 70px) rotate(09deg);
+}

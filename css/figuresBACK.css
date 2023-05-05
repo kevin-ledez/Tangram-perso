@@ -1,0 +1,48 @@
+.figure {
+    position: absolute;
+    width: 0;
+    height: 0;
+    transition: all 2s;
+}
+
+.red {
+    border-top: 150px solid transparent;
+    border-right: 150px solid red;
+    border-bottom: 150px solid transparent;
+}
+
+.yellow {
+    border-right: 150px solid transparent;
+    border-bottom: 150px solid rgb(255, 174, 0);
+    border-left: 150px solid transparent;
+}
+
+.blue {
+    border-top: 75px solid transparent;
+    border-bottom: 75px solid transparent;
+    border-left: 75px solid rgb(4, 0, 255);
+}
+
+.brown {
+    background-color: rgb(128, 41, 41);
+    width: 100px;
+    height: 100px;
+}
+
+.orange {
+    border-top: 75px solid rgb(255, 145, 0);
+    border-right: 75px solid transparent;
+    border-left: 75px solid transparent;
+}
+
+.green {
+    border: 75px solid transparent;
+    border-bottom-color: green;
+}
+
+.purple {
+    background-color: rgb(128, 0, 111);
+    width: 75px;
+    height: 75px;
+    transform: translate(25px, -75px) rotate(-45deg) skew(45deg);
+}

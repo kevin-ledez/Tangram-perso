@@ -1,0 +1,27 @@
+.red.cat {
+    transform: translate(2px, 195px) rotate(225deg);
+}
+
+.green.cat {
+    transform: translate(-140px, -157px) rotate(-45deg);
+}
+
+.blue.cat {
+    transform: translate(-101px, -235px) rotate(180deg);
+}
+
+.yellow.cat {
+    transform: translate(-21px, 32px) rotate(90deg);
+}
+
+.purple.cat {
+    transform: translate(162px, 195px) rotate(180deg) skew(-45deg);
+}
+
+.brown.cat {
+    transform: translate(-99px, -13px) rotate(225deg);
+}
+
+.orange.cat {
+    transform: translate(-177px, -236px) rotate(270deg);
+}

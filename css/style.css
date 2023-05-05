@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes colors {
+    0% {
+        background: rgba(255, 0, 0, 0.26);
+    }
+
+    25% {
+        background: rgba(0, 0, 255, 0.233);
+    }
+
+    50% {
+        background: rgba(255, 255, 0, 0.178);
+    }
+
+    75% {
+        background: rgba(0, 128, 0, 0.185);
+    }
+
+    100% {
+        background: rgba(255, 0, 0, 0.192);
+    }
+
+}
+
+body {
+    animation: colors 6s infinite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.canvas {
+    width: 500px;
+    height: 500px;
+    position: relative;
+    border-radius: 10px;
+    border: 2px solid;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons button {
+    margin: 10px;
+    width: 150px;
+    border-radius: 30px;
+}
+
+@media all and (max-width: 768px) {
+    .canvas {
+        zoom: 75%;
+    }
+} @media all and (max-width: 450px) {
+    .canvas {
+        zoom: 50%;
+    }
+}

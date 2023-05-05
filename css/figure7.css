@@ -1,0 +1,21 @@
+.red.butterfly {
+    transform: translate(-132px, -86px) rotate(156deg);
+}
+.green.butterfly {
+    transform: translate(-70px, 51px) rotate(21deg);
+}
+.blue.butterfly {
+    transform: translate(-66px, -33px) rotate(156deg);
+}
+.yellow.butterfly {
+    transform: translate(129px, -88px) rotate(295deg);
+}
+.purple.butterfly {
+    transform: translate(47px, 0px) rotate(250deg) skew(45deg);
+}
+.brown.butterfly {
+    transform: translate(133px, 82px) rotate(205deg);
+}
+.orange.butterfly {
+    transform: translate(-123px, 116px) rotate(156deg);
+}

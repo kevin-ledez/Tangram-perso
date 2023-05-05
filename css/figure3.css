@@ -1,0 +1,60 @@
+
+  .red.Boat{
+    transform: translate(100px, -30px) rotate(180deg);
+
+  }
+  
+  .yellow.Boat{
+    transform: translate(-30px, 10px) rotate(135deg);
+  }
+  
+  .blue.Boat{    
+    transform: translate(65px, -250px) rotate(360deg);
+  }
+  
+  .brown.Boat{
+    transform: translate(110px, 125px) rotate(135deg);    
+  }
+  
+  .orange.Boat {
+    transform: translate(100px, 85px) rotate(180deg);
+  }
+  
+  .green.Boat {
+    transform: translate(175px, 45px) rotate(45deg);
+  }
+  
+  .purple.Boat {
+    transform: translate(0px, 180px) rotate(0deg) skew(45deg);
+  }
+  
+  @media (min-width: 768px) {
+    .red {
+      
+    }
+  
+    .yellow {
+
+    }
+  
+    .blue {
+      
+    }
+  
+    .brown {
+      
+    }
+  
+    .orange {
+     
+    }
+  
+    .green {
+      
+    }
+  
+    .purple {
+     
+    }
+  
+  }

@@ -1,0 +1,21 @@
+.blue.cheval {
+    transform: translate(-270px, -125px) rotate(90deg);
+}
+.red.cheval  {
+    transform: translate(230px, -70px) rotate(450deg);
+}
+.yellow.cheval  {
+    transform: translate(70px, 85px) rotate(180deg);
+}
+.green.cheval  {
+    transform: translate(345px, 47px) rotate(405deg) skew(-45deg);
+}
+.purple.cheval {
+    transform: translate(-140px, -90px) rotate(360deg);
+}
+.brown.cheval {
+    transform: translate(-5px, -70px) rotate(180deg);
+}
+.orange.cheval  {
+    transform: translate(-229px, -65px) rotate(315deg);
+}

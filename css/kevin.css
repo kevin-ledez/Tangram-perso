@@ -1,0 +1,27 @@
+.red.kevin {
+    transform: translate(54px, -34px) rotate(225deg);
+}
+
+.green.kevin {
+    transform: translate(0px, 75px) rotate(0deg);
+}
+
+.blue.kevin {
+    transform: translate(-93px, 97px) rotate(180deg);
+}
+
+.yellow.kevin {
+    transform: translate(-55px, -141px) rotate(315deg);
+}
+
+.purple.kevin {
+    transform: translate(93px, 135px) rotate(45deg) skew(45deg);
+}
+
+.brown.kevin {
+    transform: translate(-1px, -197px) rotate(315deg);
+}
+
+.orange.kevin {
+    transform: translate(-94px, 171px) rotate(270deg);
+}
